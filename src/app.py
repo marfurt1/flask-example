@@ -1,4 +1,10 @@
-from utils import db_connect
-engine = db_connect()
+from flask import Flask
 
-# your code here
+app = Flask(__name__)
+
+@app.route('/')
+def hello_flask(): 
+    return 'Hello flask'
+
+if __name__ == '__main__':
+    app.run(debug=True, host='127.0.0.1', port=5000)
