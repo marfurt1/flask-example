@@ -1,13 +1,13 @@
 #Base
-pandas
-numpy
-
+numpy==1.23.1
+pandas==1.4.3
 #ML
-sklearn
+sklearn==0.0
 
 #Graphics
-matplotlib
-seaborn
+matplotlib==3.5.2
+matplotlib-inline==0.1.3
+seaborn==0.11.2
 
 #API engine
-Flask
+Flask==2.2.1
